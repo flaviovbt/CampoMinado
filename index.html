@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Campo Minado</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
+
+  <!--Fonte Londrina Solid-->
+	<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+  <!--Imagem feita por: @brenda.gandinii-->
+	<img src="img/img_login.png" id="imagem" alt="Logotipo do Campo Minado">
+
+  <div id="loginArea">
+
+        <div class="login" id="entrar">
+            <h1>Entrar</h1>
+
+            <p class="sub">Insira as suas informações para entrar.</p>
+            <p><br><br></p>
+            <form>  
+                <input id="usuarioLogin" type="text" class="text" placeholder="Usuário"/>
+                <p><br></p>
+                <input id="senhaLogin" type="password" class="text" placeholder="Senha"/>
+                <p><br><br></p>
+
+                <input id="check" type="checkbox">
+                <label for="check">Salvar minha senha para próximas visitas.</label>
+
+                <p><br><br></p>
+
+            <a class="button" id="logar"><p>Entrar no Jogo</p></a>
+                
+                <p><br><br><br><br></p>
+
+                <p>Ainda não possui conta? <a class="trocaTela">Crie uma agora.</a></p>
+
+            </form>
+        </div>
+
+        <div class="login" id="cadastrar">
+            <h3>Cadastrar</h3>
+
+            <p class="sub">Torne-se um dos maiores jogadores de Campo Minado da Unicamp</p>
+            <p><br><br></p>
+
+            <form name="formCad" id="formCadastro">
+
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="text" class="text" placeholder="Nome Completo" id="nome" name="Nome" data-nomeInput="Nome"/>
+                </div>
+                <p><br></p>
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="text" class="text" placeholder="CPF (Apenas Dígitos)" id="cpf" name="CPF" data-nomeInput="CPF"/>
+                </div>
+                <p><br></p>
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="text" class="text"  placeholder="Data de Nascimento (dd/mm/yyyy)" id="dataNasc" name="dataNasc" data-nomeInput="Data de Nascimento"/>
+                </div>
+                <p><br></p>
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="text" class="text"  placeholder="Telefone" id="telefone" name="Telefone" data-nomeInput="Telefone"/>
+                </div>
+                <p><br></p>
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="text" class="text" placeholder="Email" id="email" name="Email" data-nomeInput="Email"/>
+                </div>
+                <p><br></p>
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="text" class="text" placeholder="Usuário" id="usuario" name="Username" data-nomeInput="Username"/>
+                </div>
+                <p><br></p>
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="password" class="text" placeholder="Senha" id="senha" name="Senha" data-nomeInput="Senha"/>
+                </div>
+                <p><br></p>
+                <div class="form-control">
+                <small>Error message</small>
+                <input type="password" class="text" placeholder="Confirme sua Senha" id="confirmarSenha" name="confirmarSenha" data-nomeInput="Confirmar Senha"/>
+                </div>
+                <p><br></p>
+
+                <a class="button" id="cadastro"><p>Criar minha conta</p></a>
+
+                <p><br></p>
+
+                <p>Já possui uma conta? <a class="trocaTela">Faça login agora.</a></p>
+
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./scripts/autentificacao.js"></script> 
+  </body>
+</html>

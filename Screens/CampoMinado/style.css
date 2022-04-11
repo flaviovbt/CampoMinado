@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('../../img/background.png') no-repeat center fixed, linear-gradient(90deg, rgba(24, 10, 0, 1), rgba(33, 33, 33, 0.85), rgba(0, 0, 0, 1));
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+}
+
+#footer {
+  margin-top: 0px;
+}
+
+.nomeCentral{
+    background: linear-gradient(to left top, #FF9600, #FF7A03);
+    border-radius: 10px;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 33px;
+}
+
+h4,p {
+  font-family: 'Londrina Solid', cursive;
+}
+
+.nomeCentral h1{
+    font-weight: normal;
+    font-size: 48px;
+    color: #ffff;
+    text-align: center;
+}
+
+
+.container {
+  margin: 0;
+  padding: 10px;
+}
+
+
+.boxTdFirst {
+    background: linear-gradient(to left top, #FF9600, #FF7A03);
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    height: 100%;  
+}
+
+.jogoContainer {
+  display: flex;
+  height: 50vw;
+  justify-items: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.hudInput {
+  background: transparent;
+  border: 0px;
+  color: white;
+  width: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Londrina Solid';
+}
+
+.hudInput2 {
+  background: transparent;
+  border: 0px;
+  color: white;
+  width: 45px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Londrina Solid';
+}
+
+#x {
+  width: 10px;
+  align-content: center;
+  padding-top: 5px;
+  margin-right: 7px;
+
+  
+}
+
+#timer {
+  font-size: 25px
+}
+
+.headerJogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  border-radius: 25px;
+  border:  2px solid rgba(255, 122, 3, 1);
+  background-color: #0A0400;
+  height: 480px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: white;
+  font-family: 'Londrina Solid';
+}
+
+.itemHeaderJogo {
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.headerJogoContent {
+  padding-top: 4.5vh;
+  padding-left:  4vw;
+  padding-right:  4vw;
+  padding-bottom:  4.5vh;
+  text-align: center;
+}
+
+.textBoxOrange {
+  padding: 6px;
+  background: orange;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.switchBox{
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.switchOff, .switchOn{
+  padding: 6px;
+}
+
+.switchOn{
+  background-color: orange;
+}
+
+.jogoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  color: #fff;
+  width: 80vw;
+  margin-right: 15vw;
+}
+
+.startButton {
+    font-family: 'Londrina Solid';
+    margin-top: -10vh;
+    color: #fff;
+    background: #FF7A03;
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgba(255, 122, 3, 1);
+    cursor: pointer;
+}
+
+h4 , p {
+  color: #fff
+}
+
+h4{
+  margin-bottom: 0.75vh;
+  font-weight: 500;
+}
+
+.trapacaButton {
+  background: red;
+  color: white;
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+
+.hackerArea {
+  display: flex;
+  position: fixed;
+  opacity: 70%;
+  right: 0;
+  width: 110px;
+  bottom: 90px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid rgba(255, 122, 3, 1);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+#tabela{
+  display: none;
+}
+#trapaca{
+  display: none;
+}
+
+.blocked, .flag {
+  background: white;
+}
+
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8, .blanck {
+    background-color: transparent;
+    font-family: 'Londrina Solid';
+}
+
+.restartButton{
+  font-family: 'Londrina Solid';
+  font-size: 15px;
+  display: none;
+  width: 150px;
+  height: 40px;
+  margin-top: 30px;
+  color: #fff;
+  background: #FF7A03;
+  border-radius: 5px;
+  border-color: rgba(255, 122, 3, 1);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.n1 {
+    color: #8ccefa;
+}
+.n2 {
+    color: #98ff98;
+}
+.n3 {
+    color: #ff6991;
+}
+.n4 {
+    color: #ffdf00;
+}
+.n5 {
+    color: #ee82ee;
+}
+.n6 {
+    color: #ffa500;
+}
+.n7 {
+    color: #ffb6c1;
+}
+.n8 {
+    color: #993399;
+}
+
+#borda {
+  border:  3px solid rgba(255, 122, 3, 1);
+  border-radius: 5px;
+  display: none;
+  padding: 15px;
+  background-color: #180A00;
+}
+
+.jogoContent h1{
+  font-family: 'Londrina Solid', cursive;
+  color: #FF9600;
+  margin-bottom: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.headerGameArea{
+  display: none;
+}

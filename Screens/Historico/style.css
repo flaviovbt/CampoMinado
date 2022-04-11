@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: url('../../img/background.png') no-repeat center fixed, linear-gradient(90deg, rgba(24, 10, 0, 1), rgba(33, 33, 33, 0.85), rgba(0, 0, 0, 1));
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+}
+
+.nomeCentral {
+  background: linear-gradient(to left top, #ff9600, #ff7a03);
+  border-radius: 10px;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+
+  margin-bottom: 33px;
+}
+
+.nomeCentral h1 {
+  font-family: "Londrina Solid", cursive;
+  font-weight: bold;
+  font-size: 48px;
+
+  color: #ffff;
+  text-align: center;
+}
+
+.info h2 {
+  font-family: "Londrina Solid", cursive;
+  font-weight: normal;
+  font-size: 26px;
+
+  margin-bottom: 33px;
+
+  color: #ffff;
+  text-align: center;
+}
+
+.info .userInfo{
+  color: orange;
+}
+
+.container {
+  margin: 33px auto 0 auto;
+  width: 50%;
+  padding: 10px;
+  min-height: 900px;
+}
+
+.tabelaHistorico {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  margin: auto;
+}
+
+.tabelaHistorico th {
+  font-family: "Londrina Solid", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffff;
+  text-align: center;
+}
+
+.trContent {
+  height: 30px;
+}
+
+.tabelaHistorico td {
+  font-family: "Londrina Solid", cursive;
+  font-weight: normal;
+  font-size: 28px;
+  color: #ffff;
+  text-align: center;
+
+  padding-left: 0.3vh;
+  padding-right: 0.3vh;
+}
+
+.boxTdFirst {
+  background: linear-gradient(to left top, #ff9600, #ff7a03);
+
+  border-radius: 10px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.boxTd {
+  background: #292f3b;
+  border-radius: 10px;
+  height: 90%;
+
+  padding-top: 0.6vh;
+  padding-bottom: 0.6vh;
+}
+.content {
+  position: relative;
+}
+
+.botaoClassificacao {
+  right: -185px;
+  top: 13px;
+  position: absolute;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+#navHistorico{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.botaoVoltar {
+  background: linear-gradient(to left top, #ff9600, #ff7a03);
+  border-radius: 10px;
+  padding: 3px;
+  width: 8%;
+  text-align: center;
+  margin-right: 20px; 
+  cursor: pointer;
+}
+
+.botaoVoltar a {
+  font-family: "Londrina Solid", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.botaoAvancar {
+  text-align: center;
+  background: linear-gradient(to left top, #ff9600, #ff7a03);
+  border-radius: 10px;
+  padding: 3px;
+  width: 8%;
+  cursor: pointer;
+}
+
+.botaoAvancar a {
+  font-family: "Londrina Solid", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.dropbtn {
+  font-family: "Londrina Solid", cursive;
+  color: #ffff;
+  padding: 16px;
+  font-size: 20px;
+  width: 128px;
+  height: 10px;
+  line-height: 10px;
+  cursor: pointer;
+  background-color: rgb(6, 9, 0);
+  border: 1px solid #ff7a03;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 2px 2px 0px #ff7a03;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #ffff;
+  font-family: "Londrina Solid", cursive;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background-color: rgb(6,9,0);
+  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.clickedItem{
+  background-color: #ff7a03;
+}
+/* Referência para confecção do dropdown select https://www.w3schools.com/css/css_dropdowns.asp */

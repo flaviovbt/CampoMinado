@@ -1,0 +1,36 @@
+#navbar{
+    height: 80px;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image: linear-gradient(to right, rgba(255, 150, 0, 1), rgba(0, 0, 0, 0)) 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo a{
+    margin-left: 67px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Londrina Solid', cursive;
+}
+
+nav ul li a:hover{
+    color: #FF9600;
+    border-bottom: 1px solid #4F5965;
+    cursor: pointer;
+}
+

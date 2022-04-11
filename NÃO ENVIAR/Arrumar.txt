@@ -1,0 +1,22 @@
+CÓDIGOS VALIDADOS HTML/CSS:
+-Campo minado
+-HIstorico
+-Ranking
+
+
+- Histórico
+- Ranking Global
+- Dashboard
+
+TAREFAS:
+
+- Retirar Style CSS do html quando possível
+
+- Validar todos os Códigos
+
+- Verificar se todas as paginas comportam-se ok em resoluções 16:9 / 1368:766
+
+- Video individual 2min max cada até sexta
+
+- Editar video [Mored]
+
